@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "slug": "service-one",
+    "title": "Web Design",
+    "icon": "flaticon-web-design",
+    "courseCount": "25",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 2,
+    "slug": "service-two",
+    "title": "Graphic Design",
+    "icon": "flaticon-ux-design",
+    "courseCount": "43",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 3,
+    "slug": "service-three",
+    "title": "Personal Development",
+    "icon": "flaticon-coding",
+    "courseCount": "19",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 4,
+    "slug": "service-four",
+    "title": "IT And Software",
+    "icon": "flaticon-mobile-development",
+    "courseCount": "33",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 5,
+    "slug": "service-five",
+    "title": "Sales Marketing",
+    "icon": "flaticon-promotion",
+    "courseCount": "34",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 6,
+    "slug": "service-six",
+    "title": "Art & Humanities",
+    "icon": "flaticon-art",
+    "courseCount": "28",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 7,
+    "slug": "service-seven",
+    "title": "Mobile Application",
+    "icon": "flaticon-mobile-development",
+    "courseCount": "27",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 8,
+    "slug": "service-eight",
+    "title": "Finance & Accounting",
+    "icon": "flaticon-bars",
+    "courseCount": "32",
+    "description": "In pellentesque massa vida placerat duis. Cursus sit amet dictum sit amet.",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 9,
+    "slug": "service-nine",
+    "title": "ACTIVE LEARNING",
+    "icon": "flaticon-study",
+    "courseCount": "22",
+    "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 10,
+    "slug": "service-ten",
+    "title": "EXPERT TEACHERS",
+    "icon": "flaticon-coach",
+    "courseCount": "23",
+    "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+    "btnText": "Learn More"
+  },
+  {
+    "id": 11,
+    "slug": "service-eleven",
+    "title": "STRATEGI LOCATION",
+    "icon": "flaticon-study",
+    "courseCount": "25",
+    "description": "Lorem ipsum dolor amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore",
+    "btnText": "Learn More"
+  }
+]

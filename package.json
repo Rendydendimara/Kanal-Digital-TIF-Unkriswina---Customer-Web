@@ -1,0 +1,38 @@
+{
+  "name": "educate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "prestart": "npm run lint && npm run format"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@szhsin/react-accordion": "^1.2.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18",
+    "react-modal-video": "^2.0.1",
+    "react-redux": "^9.1.0",
+    "react-slick": "^0.30.0",
+    "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.5",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.69.5",
+    "yet-another-react-lightbox": "^3.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-next": "14.0.4",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.1"
+  }
+}

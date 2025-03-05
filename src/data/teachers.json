@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "slug": "teacher-one",
+    "name": "Nathan Allen",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-3-1.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 2,
+    "slug": "teacher-two",
+    "name": "Esther Boyd",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-3-2.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 3,
+    "slug": "teacher-three",
+    "name": "Jamie Keller",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-3-3.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 4,
+    "slug": "teacher-four",
+    "name": "Jesus Pendley",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-3-4.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 5,
+    "slug": "teacher-five",
+    "name": "Melvin Warner",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-5.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 6,
+    "slug": "teacher-six",
+    "name": "Nancy Dickens",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-6.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 7,
+    "slug": "teacher-seven",
+    "name": "Harriet Graham",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-7.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 8,
+    "slug": "teacher-eight",
+    "name": "Ernest Dustin",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-8.jpg",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 9,
+    "slug": "teacher-nine",
+    "name": "Jesus Pendley",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-1.png",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 10,
+    "slug": "teacher-ten",
+    "name": "Ernest Dustin",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-2.png",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 11,
+    "slug": "teacher-eleven",
+    "name": "Melvin Warner",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-3.png",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  },
+  {
+    "id": 12,
+    "slug": "teacher-twelve",
+    "name": "Jamie Keller",
+    "designation": "Teacher",
+    "bio": "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa.",
+    "image": "/img/team/team-1-4.png",
+    "email": "infomail@gmail.com",
+    "phone": "+9870123456789",
+    "addresss": "Hudson, Wisconsin(WI), 54016"
+  }
+]

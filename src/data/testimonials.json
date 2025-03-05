@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "slug": "testimonial-one",
+    "name": "Jorge Carter",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/avatar/avatar-3-1.png",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "slug": "testimonial-two",
+    "name": "George McGruder",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/avatar/avatar-2.png",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "slug": "testimonial-three",
+    "name": "Jamie Keller",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-3.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 4,
+    "slug": "testimonial-four",
+    "name": "Jesus Pendley",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-4.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 5,
+    "slug": "testimonial-five",
+    "name": "Melvin Warner",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-1-5.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 6,
+    "slug": "testimonial-six",
+    "name": "Nancy Dickens",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-1-6.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 7,
+    "slug": "testimonial-seven",
+    "name": "Harriet Graham",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-1-7.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 8,
+    "slug": "testimonial-eight",
+    "name": "Ernest Dustin",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-1-8.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 9,
+    "slug": "testimonial-nine",
+    "name": "Jesus Pendley",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-1.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 10,
+    "slug": "testimonial-ten",
+    "name": "Ernest Dustin",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-2.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 11,
+    "slug": "testimonial-eleven",
+    "name": "Melvin Warner",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-3.jpg",
+    "rating": "5"
+  },
+  {
+    "id": 12,
+    "slug": "testimonial-twelve",
+    "name": "Jamie Keller",
+    "designation": "Student",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "image": "/img/team/team-3-4.jpg",
+    "rating": "5"
+  }
+]
