@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -33,7 +33,7 @@ export default function About() {
                   width={304}
                   height={600}
                   alt=""
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
               </div>
               <div className="it-about-shape-1 d-none d-md-block">
@@ -65,11 +65,11 @@ export default function About() {
           <div className="col-xl-6 col-lg-6">
             <div className="it-about-right-box">
               <div className="it-about-title-box mb-20">
-                <span className="it-section-subtitle">OUr about us</span>
+                <span className="it-section-subtitle">Tentang Kami</span>
                 <h4 className="it-section-title">
-                  Learn & Grow your
-                  <span className="p-relative z-index">
-                    skills
+                  Teknik Informatika Unkriswina
+                  <span className="ms-1 p-relative z-index">
+                    Sumba
                     <svg
                       className="title-shape-2"
                       width="168"
@@ -80,42 +80,52 @@ export default function About() {
                     >
                       <path
                         d="M73.3761 8.49147C78.4841 6.01353 82.5722 4.25154 88.8933 3.3035C94.2064 2.50664 99.6305 2.0701 104.981 1.94026C120.426 1.56549 135.132 4.90121 146.506 9.70405C158.628 14.8228 166.725 22.5638 166.074 31.6501C165.291 42.5779 151.346 51.7039 133.508 56.8189C110.253 63.4874 81.7065 63.8025 58.5605 60.8285C37.5033 58.123 11.6304 51.7165 3.58132 40.0216C-3.43085 29.8337 12.0728 18.1578 27.544 11.645C40.3656 6.24763 55.7082 2.98328 70.8043 4.08403C81.9391 4.89596 93.2164 6.87822 102.462 9.99561C112.874 13.5066 120.141 18.5932 127.862 23.6332"
-                        stroke="#0AB99D"
+                        stroke="#660099"
                         strokeWidth="3"
                         strokeLinecap="round"
                       />
                     </svg>
                   </span>
-                  <br /> From anywhere
+                  <br />
                 </h4>
               </div>
               <div className="it-about-text pb-10">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris..
+                  Menjadi pusat pendidikan yang unggul dalam pengembangan
+                  jaringan komputer, pemprograman, dan multimedia berlandaskan
+                  semangat kewirausahaan dan nilai-nilai kristiani.
                 </p>
               </div>
               <div className="it-about-content-wrapper d-flex align-items-center justify-content-between pb-15">
                 <div className="it-about-content">
-                  <h5>Flexible Classes</h5>
-                  <p>
-                    Suspendisse ultrice gravida dictum fusce placerat ultricies
-                    integer quis auctor elit sed vulputate mi sit.
-                  </p>
+                  <h5>Profile Kelulusan</h5>
+                  <ul>
+                    <li>Pemprograman</li>
+                    <li>Jaringan Komputer</li>
+                    <li>Multimedia</li>
+                  </ul>
                 </div>
                 <div className="it-about-content">
-                  <h5>Flexible Classes</h5>
-                  <p>
-                    Suspendisse ultrice gravida dictum fusce placerat ultricies
-                    integer quis auctor elit sed vulputate mi sit.
-                  </p>
+                  <h5>Prospek Karir</h5>
+                  <ul>
+                    <li>IT Consultan</li>
+                    <li>Web Developer</li>
+                    <li>Lebih dari 8 pilihan karir lainnya</li>
+                    {/*
+                    <li>Mobile Aplication Developer</li>
+                    <li>Game Developer</li>
+                    <li>System Analyst</li>
+                    <li>Data Scientist</li>
+                    <li>Cyber Security Analyst</li>
+                    <li>Database Administrator</li>
+                    <li>Software Tester</li>
+                    <li>Network Engineer</li> */}
+                  </ul>
                 </div>
               </div>
-              <Link className="it-btn" href="/about-us">
+              <Link className="it-btn" href="/tentang-kami">
                 <span>
-                  More About Us
+                  Selengkapnya Tentang Kami
                   <svg
                     width="17"
                     height="14"

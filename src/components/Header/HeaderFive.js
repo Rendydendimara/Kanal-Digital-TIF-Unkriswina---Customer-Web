@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import Image from 'next/image';
-import Link from 'next/link';
-import MenuItems from './MenuItems';
-import MobileMenuItems from './MobileMenuItems';
+import React, { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import Image from "next/image";
+import Link from "next/link";
+import MenuItems from "./MenuItems";
+import MobileMenuItems from "./MobileMenuItems";
 
 export default function HeaderFive(props) {
   const { menuFormat } = props;
   const [isVisible, setIsVisible] = useState(false);
   const [offCanvasOpen, setOffCanvasOpen] = useState(false);
   const [multiLangOpen, setMultiLangOpen] = useState(false);
-  const [langValue, setLangValue] = useState('English');
+  const [langValue, setLangValue] = useState("English");
 
   const langHandle = (value) => {
     setLangValue(value);
@@ -30,9 +30,9 @@ export default function HeaderFive(props) {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
-    return () => window.removeEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
   const [isClient, setIsClient] = useState(false); // State to track if component is mounted on the client side
@@ -63,7 +63,7 @@ export default function HeaderFive(props) {
                       <a href="#">
                         <span>
                           <i className="fal fa-map-marker-alt"></i>
-                        </span>{' '}
+                        </span>{" "}
                         Hudson, Wisconsin(WI), 54016
                       </a>
                     </li>
@@ -78,7 +78,7 @@ export default function HeaderFive(props) {
                         <div
                           id="it-header-2-lang"
                           className={`it-header-2-lang d-none d-sm-block ${
-                            multiLangOpen ? 'open' : ''
+                            multiLangOpen ? "open" : ""
                           }`}
                         >
                           <ul>
@@ -116,7 +116,7 @@ export default function HeaderFive(props) {
                                   <Link
                                     href="#"
                                     onClick={() => {
-                                      langHandle('English');
+                                      langHandle("English");
                                     }}
                                   >
                                     English
@@ -126,7 +126,7 @@ export default function HeaderFive(props) {
                                   <Link
                                     href="#"
                                     onClick={() => {
-                                      langHandle('Arabic');
+                                      langHandle("Arabic");
                                     }}
                                   >
                                     Arabic
@@ -136,7 +136,7 @@ export default function HeaderFive(props) {
                                   <Link
                                     href="#"
                                     onClick={() => {
-                                      langHandle('Spanish');
+                                      langHandle("Spanish");
                                     }}
                                   >
                                     Spanish
@@ -146,7 +146,7 @@ export default function HeaderFive(props) {
                                   <Link
                                     href="#"
                                     onClick={() => {
-                                      langHandle('Mandarin');
+                                      langHandle("Mandarin");
                                     }}
                                   >
                                     Mandarin
@@ -184,7 +184,7 @@ export default function HeaderFive(props) {
         <div
           id="header-sticky"
           className={`it-header-5-area it-header-5-style ${
-            isVisible ? 'header-sticky' : ''
+            isVisible ? "header-sticky" : ""
           }`}
         >
           <div className="container">
@@ -218,7 +218,7 @@ export default function HeaderFive(props) {
                       {cartItemsCount > 0 ? (
                         <span className="cart-badge">{cartItemsCount}</span>
                       ) : (
-                        ''
+                        ""
                       )}
                     </div>
                     <div className="it-header-2-button d-none d-md-block">
@@ -271,7 +271,7 @@ export default function HeaderFive(props) {
       </header>
 
       <div className="it-offcanvas-area">
-        <div className={offCanvasOpen ? 'itoffcanvas opened' : 'itoffcanvas'}>
+        <div className={offCanvasOpen ? "itoffcanvas opened" : "itoffcanvas"}>
           <div className="it-offcanva-bottom-shape d-none d-xxl-block"></div>
           <div className="itoffcanvas__close-btn">
             <button
@@ -288,6 +288,10 @@ export default function HeaderFive(props) {
               <Image
                 src="/img/logo/logo-white.png"
                 alt=""
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "center",
+                }}
                 width={157}
                 height={42}
               />
@@ -338,7 +342,7 @@ export default function HeaderFive(props) {
                   href="htits://www.google.com/maps/@37.4801311,22.8928877,3z"
                   target="_blank"
                 >
-                  Riverside 255, San Francisco, USA{' '}
+                  Riverside 255, San Francisco, USA{" "}
                 </Link>
               </div>
             </div>
@@ -346,7 +350,7 @@ export default function HeaderFive(props) {
         </div>
       </div>
       <div
-        className={offCanvasOpen ? 'body-overlay apply' : 'body-overlay'}
+        className={offCanvasOpen ? "body-overlay apply" : "body-overlay"}
       ></div>
     </>
   );

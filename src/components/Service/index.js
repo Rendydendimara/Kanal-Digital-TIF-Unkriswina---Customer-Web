@@ -1,22 +1,23 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function SingleService(props) {
-  const { serviceClass, Slug, Icon, Title, courseCount } = props;
+  const { serviceClass, Slug, Icon, Title, btnText } = props;
   return (
     <div
-      className={serviceClass ? serviceClass : 'it-category-item text-center'}
+      className={serviceClass ? serviceClass : "it-category-item text-center"}
     >
       <div className="it-category-icon">
         <span>
-          <i className={Icon ? Icon : 'flaticon-web-design'}></i>
+          <i className={Icon ? Icon : "flaticon-web-design"}></i>
         </span>
       </div>
       <div className="it-category-text">
         <h4 className="it-category-title">
-          <Link href={`/services/${Slug}`}>{Title ? Title : 'Web Design'}</Link>
+          <Link href={`/${Slug}`}>{Title ? Title : "Web Design"}</Link>
         </h4>
-        <Link href={`/course${Slug ? '?category=' + Slug : ''}`}>
-          {courseCount ? courseCount : '25'} Courses
+        <Link href={`/${Slug}`}>
+          {/* {courseCount ? courseCount : '25'} Courses */}
+          {btnText}
           <span>
             <svg
               width="16"

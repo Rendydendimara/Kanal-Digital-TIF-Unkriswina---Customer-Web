@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -19,7 +19,7 @@ export default function CTA() {
           <div className="col-xl-3 col-lg-5 col-md-5">
             <div className="it-cta-button text-md-end">
               /
-              <Link className="it-btn-white sky-bg" href="/about-us">
+              <Link className="it-btn-white sky-bg" href="/tentang-kami">
                 <span>
                   More About Us
                   <svg

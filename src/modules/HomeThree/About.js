@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -46,7 +46,7 @@ export default function About() {
                   width={565}
                   height={688}
                   alt=""
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
               </div>
             </div>
@@ -54,15 +54,15 @@ export default function About() {
           <div className="col-xl-6 col-lg-6">
             <div className="it-about-3-title-box">
               <span className="it-section-subtitle-3">
-                <Image src="/img/about/bg.svg" width={23} height={17} alt="" />{' '}
+                <Image src="/img/about/bg.svg" width={23} height={17} alt="" />{" "}
                 about us
               </span>
               <h2 className="it-section-title-3 pb-30">
-                Benefit from our online learning expertise earn{' '}
+                Benefit from our online learning expertise earn{" "}
                 <span>professional</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{' '}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
                 <br /> eiusmod tempor incididunt ut labore.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function About() {
               </div>
             </div>
             <div className="it-about-3-btn-box p-relative">
-              <Link className="it-btn-yellow" href="/about-us">
+              <Link className="it-btn-yellow" href="/tentang-kami">
                 <span>
                   admission open
                   <svg

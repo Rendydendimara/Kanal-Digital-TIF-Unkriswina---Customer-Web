@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import SingleProgress from '@/components/Progress';
+import Image from "next/image";
+import Link from "next/link";
 
 const progresses = [
-  { id: 1, progressLabel: 'Lectures', progress: '90' },
-  { id: 2, progressLabel: 'My Skills', progress: '82' },
-  { id: 3, progressLabel: 'Consulting', progress: '75' },
+  { id: 1, progressLabel: "Lectures", progress: "90" },
+  { id: 2, progressLabel: "My Skills", progress: "82" },
+  { id: 3, progressLabel: "Consulting", progress: "75" },
 ];
 
 export default function TeacherDetailsArea({ item }) {
@@ -23,11 +22,11 @@ export default function TeacherDetailsArea({ item }) {
               <div className="it-teacher-details-left">
                 <div className="it-teacher-details-left-thumb">
                   <Image
-                    src={image ? image : '/img/team/team-inner.jpg'}
+                    src={image ? image : "/img/team/team-inner.jpg"}
                     alt=""
                     width={284}
                     height={284}
-                    style={{ height: 'auto' }}
+                    style={{ height: "auto" }}
                   />
                 </div>
                 <div className="it-teacher-details-left-social text-center">
@@ -48,68 +47,37 @@ export default function TeacherDetailsArea({ item }) {
                   <ul>
                     <li>
                       <i className="fa-light fa-phone-volume"></i>
-                      <a href={`tel:${phone ? phone : '(568) 367-987-237'}`}>
-                        {phone ? phone : '(568) 367-987-237'}
+                      <a href={`tel:${phone ? phone : "(568) 367-987-237"}`}>
+                        {phone ? phone : "(568) 367-987-237"}
                       </a>
                     </li>
                     <li>
                       <i className="fa-light fa-location-dot"></i>
                       <a href="https://www.google.com/maps" target="_blank">
-                        {address ? address : 'Hudson, Wisconsin(WI), 54016'}
+                        {address ? address : "Hudson, Wisconsin(WI), 54016"}
                       </a>
                     </li>
                     <li>
                       <i className="fa-light fa-envelope"></i>
                       <a
-                        href={`mailto:${email ? email : 'govillage@gmail.com'}`}
+                        href={`mailto:${email ? email : "govillage@gmail.com"}`}
                       >
-                        {email ? email : 'govillage@gmail.com'}
+                        {email ? email : "govillage@gmail.com"}
                       </a>
                     </li>
                   </ul>
-                </div>
-                <div className="it-teacher-details-left-btn">
-                  <Link className="it-btn" href="/contact">
-                    <span>
-                      Contact us teacher
-                      <svg
-                        width="17"
-                        height="14"
-                        viewBox="0 0 17 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11 1.24023L16 7.24023L11 13.2402"
-                          stroke="currentcolor"
-                          strokeWidth="1.5"
-                          strokeMiterlimit="10"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M1 7.24023H16"
-                          stroke="currentcolor"
-                          strokeWidth="1.5"
-                          strokeMiterlimit="10"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>
-                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-xl-9 col-lg-9">
               <div className="it-teacher-details-right">
                 <div className="it-teacher-details-right-title-box">
-                  <h4>{name ? name : 'Melvin Warner'}</h4>
-                  <span>{designation ? designation : 'teacher'}</span>
+                  <h4>{name ? name : "Melvin Warner"}</h4>
+                  <span>{designation ? designation : "teacher"}</span>
                   <p>
                     {bio
                       ? bio
-                      : 'Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa'}
+                      : "Tempor orci dapibus ultrices in iaculis nunc sed augue. Feugiat in ante metus dictum at tempor commodo. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Arcu dictum varius duis at consectetur lorem donec massa"}
                   </p>
                   <p>
                     Tempor orci dapibus ultrices in iaculis nunc sed augue.
@@ -129,12 +97,11 @@ export default function TeacherDetailsArea({ item }) {
                 </div>
                 <div className="it-progress-bar-wrap">
                   <h4>Expertise & Skills:</h4>
-                  {progresses.map((item) => (
-                    <div key={item.id} className="it-progress-bar-item">
-                      <label>{item.progressLabel}</label>
-                      <SingleProgress progress={item.progress} />
-                    </div>
-                  ))}
+                  <ul>
+                    {progresses.map((item, i) => (
+                      <li key={i}>{item.progressLabel}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>

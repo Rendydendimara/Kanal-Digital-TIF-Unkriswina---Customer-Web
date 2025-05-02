@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import ModalVideo from 'react-modal-video';
-import Image from 'next/image';
-import Link from 'next/link';
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ export default function About() {
                   width={303}
                   height={550}
                   alt=""
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
                 <div className="it-about-2-shape-1 d-none d-xxl-block">
                   <Image
@@ -41,7 +41,7 @@ export default function About() {
                     width={84}
                     height={89}
                     alt=""
-                    style={{ height: 'auto' }}
+                    style={{ height: "auto" }}
                   />
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function About() {
                   width={312}
                   height={550}
                   alt=""
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function About() {
                     />
                     <span>Learn From Anywhere</span>
                   </div>
-                  <Link className="it-btn-white sky-bg" href="/about-us">
+                  <Link className="it-btn-white sky-bg" href="/tentang-kami">
                     <span>
                       More About Us
                       <svg
@@ -136,7 +136,7 @@ export default function About() {
                       width={262}
                       height={215}
                       alt=""
-                      style={{ height: 'auto' }}
+                      style={{ height: "auto" }}
                     />
                   </div>
                   <div className="it-about-2-video-icon">

@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
                   alt=""
                   width={631}
                   height={621}
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
               </div>
               <div className="it-about-5-shape-1">
@@ -32,7 +32,7 @@ export default function About() {
                   alt=""
                   width={854}
                   height={709}
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function About() {
                 </div>
               </div>
               <div className="it-feature-button">
-                <Link className="it-btn-yellow radius" href="/about-us">
+                <Link className="it-btn-yellow radius" href="/tentang-kami">
                   <span>
                     admission open
                     <svg

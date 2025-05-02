@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import Image from 'next/image';
-import Link from 'next/link';
-import MenuItems from './MenuItems';
-import MobileMenuItems from './MobileMenuItems';
+import React, { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import Image from "next/image";
+import Link from "next/link";
+import MenuItems from "./MenuItems";
+import MobileMenuItems from "./MobileMenuItems";
 
 export default function HeaderTwo(props) {
   const { menuFormat } = props;
@@ -22,9 +22,9 @@ export default function HeaderTwo(props) {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
-    return () => window.removeEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
   const [isClient, setIsClient] = useState(false); // State to track if component is mounted on the client side
@@ -63,7 +63,7 @@ export default function HeaderTwo(props) {
                       <a href="#">
                         <span>
                           <i className="fal fa-map-marker-alt"></i>
-                        </span>{' '}
+                        </span>{" "}
                         Hudson, Wisconsin(WI), 54016
                       </a>
                     </li>
@@ -108,7 +108,7 @@ export default function HeaderTwo(props) {
         <div
           id="header-sticky"
           className={`it-header-5-area it-header-1-style it-header-2-style ${
-            isVisible ? 'header-sticky' : ''
+            isVisible ? "header-sticky" : ""
           }`}
         >
           <div className="container">
@@ -142,7 +142,7 @@ export default function HeaderTwo(props) {
                       {cartItemsCount > 0 ? (
                         <span className="cart-badge">{cartItemsCount}</span>
                       ) : (
-                        ''
+                        ""
                       )}
                     </div>
                     <div className="it-header-2-button d-none d-lg-block">
@@ -195,7 +195,7 @@ export default function HeaderTwo(props) {
       </header>
 
       <div className="it-offcanvas-area">
-        <div className={offCanvasOpen ? 'itoffcanvas opened' : 'itoffcanvas'}>
+        <div className={offCanvasOpen ? "itoffcanvas opened" : "itoffcanvas"}>
           <div className="it-offcanva-bottom-shape d-none d-xxl-block"></div>
           <div className="itoffcanvas__close-btn">
             <button
@@ -213,6 +213,10 @@ export default function HeaderTwo(props) {
                 src="/img/logo/logo-white.png"
                 alt=""
                 width={157}
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "center",
+                }}
                 height={42}
               />
             </Link>
@@ -262,7 +266,7 @@ export default function HeaderTwo(props) {
                   href="htits://www.google.com/maps/@37.4801311,22.8928877,3z"
                   target="_blank"
                 >
-                  Riverside 255, San Francisco, USA{' '}
+                  Riverside 255, San Francisco, USA{" "}
                 </Link>
               </div>
             </div>
@@ -270,7 +274,7 @@ export default function HeaderTwo(props) {
         </div>
       </div>
       <div
-        className={offCanvasOpen ? 'body-overlay apply' : 'body-overlay'}
+        className={offCanvasOpen ? "body-overlay apply" : "body-overlay"}
       ></div>
     </>
   );

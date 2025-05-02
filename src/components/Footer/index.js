@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer(props) {
   const { footerLogo, footerClass } = props;
@@ -18,9 +18,13 @@ export default function Footer(props) {
                   <Link href="/">
                     <Image
                       src={`/img/logo/${
-                        footerLogo ? footerLogo : 'logo-white.png'
+                        footerLogo ? footerLogo : "logo-white.png"
                       }`}
                       alt=""
+                      style={{
+                        objectFit: "cover",
+                        objectPosition: "center",
+                      }}
                       width={151}
                       height={40}
                     />
@@ -28,9 +32,8 @@ export default function Footer(props) {
                 </div>
                 <div className="it-footer-text pb-5">
                   <p>
-                    Interdum velit laoreet id donec ultrices <br /> tincidunt
-                    arcu. Tincidunt tortor aliquam nulla facilisi cras fermentum
-                    odio eu.
+                    Platform inovasi dan kolaborasi mahasiswa Teknik Informatika
+                    Unkriswina Sumba dalam pengembangan teknologi.
                   </p>
                 </div>
                 <div className="it-footer-social">
@@ -41,154 +44,8 @@ export default function Footer(props) {
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                   <a href="#">
-                    <i className="fa-brands fa-pinterest-p"></i>
+                    <i className="fa-brands fa-tiktok"></i>
                   </a>
-                  <a href="#">
-                    <i className="fa-brands fa-twitter"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
-              <div className="it-footer-widget footer-col-2">
-                <h4 className="it-footer-title">our services:</h4>
-                <div className="it-footer-list">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>Web
-                        development
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>UI/UX
-                        Design
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>Management
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>Digital
-                        Marketing
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>Blog News
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mb-50">
-              <div className="it-footer-widget footer-col-3">
-                <h4 className="it-footer-title">quick links:</h4>
-                <div className="it-footer-list">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>templates
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>blog and
-                        article
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>
-                        integrations
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>webinars
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa-regular fa-angle-right"></i>privacy &
-                        policy
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
-              <div className="it-footer-widget footer-col-4">
-                <h4 className="it-footer-title">Gallery</h4>
-                <div className="it-footer-gallery-box">
-                  <div className="row gx-0">
-                    <div className="col-md-4 col-4">
-                      <div className="it-footer-thumb mb-10">
-                        <Image
-                          src="/img/footer/thumb-1-1.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-4">
-                      <div className="it-footer-thumb mb-10">
-                        <Image
-                          src="/img/footer/thumb-1-2.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-4 mb-10">
-                      <div className="it-footer-thumb">
-                        <Image
-                          src="/img/footer/thumb-1-3.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-4">
-                      <div className="it-footer-thumb">
-                        <Image
-                          src="/img/footer/thumb-1-4.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-4">
-                      <div className="it-footer-thumb">
-                        <Image
-                          src="/img/footer/thumb-1-5.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-4">
-                      <div className="it-footer-thumb">
-                        <Image
-                          src="/img/footer/thumb-1-6.png"
-                          alt=""
-                          width={80}
-                          height={80}
-                        />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -205,10 +62,15 @@ export default function Footer(props) {
               data-wow-delay=".3s"
             >
               <div className="it-copyright-text text-center">
-                <p>
-                  Copyright © 2023 <a href="#">Educate </a> || All Rights
-                  Reserved
-                </p>
+                <footer>
+                  <p>
+                    &copy; {new Date().getFullYear()}{" "}
+                    <a href="#">
+                      Kanal Digital Teknik Informatika FST - Unkriswina Sumba
+                    </a>{" "}
+                    || All Rights Reserved.
+                  </p>
+                </footer>
               </div>
             </div>
           </div>

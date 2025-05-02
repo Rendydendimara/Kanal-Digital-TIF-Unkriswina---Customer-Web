@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { useState } from 'react';
+import Link from "next/link";
+import { useState } from "react";
 
 export default function MobileMenuItems(props) {
   const { onePage } = props;
@@ -10,22 +10,22 @@ export default function MobileMenuItems(props) {
   const [blog, setBlog] = useState(false);
 
   const openMobileMenu = (menu) => {
-    if (menu === 'home') {
+    if (menu === "home") {
       setHome(!home);
       setPage(false);
       setService(false);
       setBlog(false);
-    } else if (menu === 'page') {
+    } else if (menu === "page") {
       setHome(false);
       setPage(!page);
       setService(false);
       setBlog(false);
-    } else if (menu === 'service') {
+    } else if (menu === "service") {
       setHome(false);
       setPage(false);
       setService(!service);
       setBlog(false);
-    } else if (menu === 'blog') {
+    } else if (menu === "blog") {
       setHome(false);
       setPage(false);
       setService(false);
@@ -37,9 +37,9 @@ export default function MobileMenuItems(props) {
     <li className="has-dropdown p-static">
       <Link
         href="#"
-        className={home ? 'active' : ''}
+        className={home ? "active" : ""}
         onClick={() => {
-          openMobileMenu('home');
+          openMobileMenu("home");
         }}
       >
         Home
@@ -56,7 +56,7 @@ export default function MobileMenuItems(props) {
           ></path>
         </svg>
       </Link>
-      <ul className={home ? 'it-submenu submenu-open' : 'it-submenu'}>
+      <ul className={home ? "it-submenu submenu-open" : "it-submenu"}>
         <li>
           <Link href="/">Home 1</Link>
         </li>
@@ -78,7 +78,7 @@ export default function MobileMenuItems(props) {
 
   return (
     <>
-      {onePage == 'onepage1' ? (
+      {onePage == "onepage1" ? (
         <ul>
           {onepageMobileMenuHome}
           <li>
@@ -97,7 +97,7 @@ export default function MobileMenuItems(props) {
             <Link href="#it-newsletter">Contact</Link>
           </li>
         </ul>
-      ) : onePage == 'onepage2' ? (
+      ) : onePage == "onepage2" ? (
         <ul>
           {onepageMobileMenuHome}
           <li>
@@ -116,7 +116,7 @@ export default function MobileMenuItems(props) {
             <Link href="#it-blog">Blog</Link>
           </li>
         </ul>
-      ) : onePage == 'onepage3' ? (
+      ) : onePage == "onepage3" ? (
         <ul>
           {onepageMobileMenuHome}
           <li>
@@ -135,7 +135,7 @@ export default function MobileMenuItems(props) {
             <Link href="#it-blog">Blog</Link>
           </li>
         </ul>
-      ) : onePage == 'onepage4' ? (
+      ) : onePage == "onepage4" ? (
         <ul>
           {onepageMobileMenuHome}
           <li>
@@ -154,7 +154,7 @@ export default function MobileMenuItems(props) {
             <Link href="#it-blog">Blog</Link>
           </li>
         </ul>
-      ) : onePage == 'onepage5' ? (
+      ) : onePage == "onepage5" ? (
         <ul>
           {onepageMobileMenuHome}
           <li>
@@ -178,9 +178,9 @@ export default function MobileMenuItems(props) {
           <li className="has-dropdown p-static">
             <Link
               href="#"
-              className={home ? 'active' : ''}
+              className={home ? "active" : ""}
               onClick={() => {
-                openMobileMenu('home');
+                openMobileMenu("home");
               }}
             >
               Home
@@ -197,7 +197,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={home ? 'it-submenu submenu-open' : 'it-submenu'}>
+            <ul className={home ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/">Home 1</Link>
               </li>
@@ -231,14 +231,14 @@ export default function MobileMenuItems(props) {
             </ul>
           </li>
           <li>
-            <Link href="/about-us">about us</Link>
+            <Link href="/tentang-kami">about us</Link>
           </li>
           <li className="has-dropdown">
             <Link
               href="#"
-              className={service ? 'active' : ''}
+              className={service ? "active" : ""}
               onClick={() => {
-                openMobileMenu('service');
+                openMobileMenu("service");
               }}
             >
               Services
@@ -255,7 +255,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={service ? 'it-submenu submenu-open' : 'it-submenu'}>
+            <ul className={service ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/services">services 01</Link>
               </li>
@@ -273,9 +273,9 @@ export default function MobileMenuItems(props) {
           <li className="has-dropdown">
             <Link
               href="#"
-              className={page ? 'active' : ''}
+              className={page ? "active" : ""}
               onClick={() => {
-                openMobileMenu('page');
+                openMobileMenu("page");
               }}
             >
               Pages
@@ -292,7 +292,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={page ? 'it-submenu submenu-open' : 'it-submenu'}>
+            <ul className={page ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/course">Course 01</Link>
               </li>
@@ -358,9 +358,9 @@ export default function MobileMenuItems(props) {
           <li className="has-dropdown">
             <Link
               href="#"
-              className={blog ? 'active' : ''}
+              className={blog ? "active" : ""}
               onClick={() => {
-                openMobileMenu('blog');
+                openMobileMenu("blog");
               }}
             >
               Blog
@@ -377,7 +377,7 @@ export default function MobileMenuItems(props) {
                 ></path>
               </svg>
             </Link>
-            <ul className={blog ? 'it-submenu submenu-open' : 'it-submenu'}>
+            <ul className={blog ? "it-submenu submenu-open" : "it-submenu"}>
               <li>
                 <Link href="/blog">Blog 01</Link>
               </li>

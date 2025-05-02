@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import ModalVideo from 'react-modal-video';
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
 
 export default function Banner() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,9 +43,9 @@ export default function Banner() {
           <div className="col-xxl-6 col-xl-6 col-lg-6">
             <div className="it-hero-2-content">
               <h1 className="it-hero-2-title">
-                Develop Your skills <br />
-                with online courses <br />
-                From A Pro
+                Kanal Digital <br />
+                Teknik Informatika <br />
+                FST - Unkriswina Sumba
               </h1>
               <div className="it-hero-2-text">
                 <p>
@@ -108,7 +108,7 @@ export default function Banner() {
                   alt=""
                   width={800}
                   height={788}
-                  style={{ height: 'auto' }}
+                  style={{ height: "auto" }}
                 />
                 <div className="it-hero-5-shape-5">
                   <Image
@@ -116,7 +116,7 @@ export default function Banner() {
                     alt=""
                     width={21}
                     height={21}
-                    style={{ height: 'auto' }}
+                    style={{ height: "auto" }}
                   />
                 </div>
                 <div className="it-hero-5-shape-6">
@@ -125,7 +125,7 @@ export default function Banner() {
                     alt=""
                     width={184}
                     height={184}
-                    style={{ height: 'auto' }}
+                    style={{ height: "auto" }}
                   />
                 </div>
               </div>

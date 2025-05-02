@@ -1,18 +1,16 @@
-import BreadCrumbs from "@/components/BreadCrumbs"
-import TeacherArea from "./TeacherArea"
-import Newsletter from "@/components/Newsletter"
-import ScrollTop from "@/components/ScrollTop"
+import BreadCrumbs from "@/components/BreadCrumbs";
+import ScrollTop from "@/components/ScrollTop";
+import TeacherArea from "./TeacherArea";
 
 export default function TeacherModules() {
-	return (
-		<main>
-			<BreadCrumbs
-				Title="Teacher"
-				subTitle="Teacher"
-			/>
-			<TeacherArea />
-			<Newsletter />
-			<ScrollTop />
-		</main>
-	)
+  return (
+    <main>
+      <BreadCrumbs
+        Title="Daftar Dosen Teknik Informatika Unkriswina Sumba"
+        subTitle="Teacher"
+      />
+      <TeacherArea />
+      <ScrollTop />
+    </main>
+  );
 }

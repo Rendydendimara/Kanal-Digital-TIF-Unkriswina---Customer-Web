@@ -1,83 +1,83 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function About() {
   return (
     <div className="it-about-4-area inner-about-style pt-120 pb-120">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-xl-6 col-lg-6">
-            <div className="it-about-4-thumb-wrap d-flex align-items-center justify-content-center justify-content-lg-end">
-              <div className="it-about-4-thumb-double d-flex flex-column">
-                <img
-                  className="mb-20"
-                  src="/img/about/thumb-4-1.jpg"
-                  alt=""
-                  width={236}
-                  height={350}
-                  style={{ height: 'auto' }}
-                />
-                <Image
-                  src="/img/about/thumb-4-2.jpg"
-                  alt=""
-                  width={236}
-                  height={350}
-                  style={{ height: 'auto' }}
-                />
-              </div>
-              <div className="it-about-4-thumb-single">
-                <Image
-                  src="/img/about/thumb-4-3.jpg"
-                  alt=""
-                  width={304}
-                  height={600}
-                  style={{ height: 'auto' }}
-                />
-              </div>
-            </div>
+        <div>
+          <div className="it-about-3-title-box">
+            <span className="it-section-subtitle">
+              <Image
+                src="/img/category/inner.svg"
+                alt=""
+                width={18}
+                height={18}
+              />{" "}
+              tentang kami
+            </span>
+            <h2 className="it-section-title-3 pb-30">
+              Kanal Digital Teknik Informatika
+              <span> Unkriswina Sumba</span>
+            </h2>
+            <p>
+              Kanal Digital Teknik Informatika Universitas Kristen Wira Wacana
+              Sumba adalah platform digital yang bertujuan untuk menyebarkan
+              informasi, inovasi, dan perkembangan terbaru dalam dunia
+              teknologi, khususnya di lingkungan Program Studi Teknik
+              Informatika UKRISWINA Sumba.
+            </p>
+            <p>
+              Kami berkomitmen untuk menjadi pusat informasi dan kolaborasi bagi
+              mahasiswa, dosen, serta masyarakat umum yang tertarik dengan dunia
+              teknologi dan informatika. Melalui platform ini, kami menghadirkan
+              berbagai konten seperti berita teknologi, penelitian mahasiswa,
+              inovasi terbaru, serta kegiatan akademik dan non-akademik di
+              lingkungan kampus.
+            </p>
           </div>
-          <div className="col-xl-6 col-lg-6">
-            <div className="it-about-3-title-box">
-              <span className="it-section-subtitle">
-                <Image
-                  src="/img/category/inner.svg"
-                  alt=""
-                  width={18}
-                  height={18}
-                />{' '}
-                about us
-              </span>
-              <h2 className="it-section-title-3 pb-30">
-                we are always ensure best course for your <span>learning</span>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi.
-              </p>
-            </div>
-            <div className="it-about-3-mv-box">
-              <div className="row">
-                <div className="col-xl-12">
-                  <div className="it-about-4-list-wrap d-flex align-items-start">
-                    <div className="it-about-4-list-icon">
-                      <span>
-                        <i className="flaticon-video-1"></i>
-                      </span>
-                    </div>
-                    <div className="it-about-3-mv-item">
-                      <span className="it-about-3-mv-title">
-                        Sharing a Screen
-                      </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do tempor incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
-                    </div>
+          <div className="it-about-3-mv-box">
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="it-about-4-list-wrap d-flex align-items-start">
+                  <div className="it-about-4-list-icon">
+                    <span>
+                      <i className="flaticon-video-1"></i>
+                    </span>
+                  </div>
+                  <div className="it-about-3-mv-item">
+                    <span className="it-about-3-mv-title">
+                      Visi Fakultas Sains Dan Teknologi (FST)
+                    </span>
+                    <p>
+                      Menjadi Fakultas yang unggul dalam pengembangan Sains dan
+                      Teknologi berbasis Kearifan Lokal berlandaskan semangat
+                      Kewirausahaan dan Nilai-nilai Kristiani.
+                    </p>
                   </div>
                 </div>
-                <div className="col-xl-12">
+              </div>
+              <div className="col-xl-12">
+                <div className="it-about-4-list-wrap d-flex align-items-start">
+                  <div className="it-about-4-list-icon">
+                    <span>
+                      <i className="flaticon-puzzle"></i>
+                    </span>
+                  </div>
+                  <div className="it-about-3-mv-item">
+                    <span className="it-about-3-mv-title">
+                      Visi Keilmuan Program Studi Teknik Informatika
+                    </span>
+                    <p>
+                      Menjadi pusat pendidikan yang unggul dalam pengembangan
+                      jaringan komputer, pemprograman, dan multimedia
+                      berlandaskan semangat kewirausahaan dan nilai-nilai
+                      kristiani.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="responsiveFlex">
+                <div className="">
                   <div className="it-about-4-list-wrap d-flex align-items-start">
                     <div className="it-about-4-list-icon">
                       <span>
@@ -86,55 +86,78 @@ export default function About() {
                     </div>
                     <div className="it-about-3-mv-item">
                       <span className="it-about-3-mv-title">
-                        presenter Control
+                        Profile Kelulusan
                       </span>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do tempor incididunt ut labore et dolore magna
-                        aliqua.
-                      </p>
+                      <ul>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Pemprograman</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>
+                            Jaringan Komputer
+                          </p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Multimedia</p>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="it-about-3-btn-box p-relative">
-              <a className="it-btn" href="contact">
-                <span>
-                  admission open
-                  <svg
-                    width="17"
-                    height="14"
-                    viewBox="0 0 17 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11 1.24023L16 7.24023L11 13.2402"
-                      stroke="currentcolor"
-                      strokeWidth="1.5"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M1 7.24023H16"
-                      stroke="currentcolor"
-                      strokeWidth="1.5"
-                      strokeMiterlimit="10"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </a>
-              <div className="it-about-3-left-shape-3 d-none d-xl-block">
-                <Image
-                  src="/img/about/about-3-shap-3.png"
-                  alt=""
-                  width={266}
-                  height={52}
-                />
+                <div className="">
+                  <div className="it-about-4-list-wrap d-flex align-items-start">
+                    <div className="it-about-4-list-icon">
+                      <span>
+                        <i className="flaticon-puzzle"></i>
+                      </span>
+                    </div>
+                    <div className="it-about-3-mv-item">
+                      <span className="it-about-3-mv-title">
+                        Prospek Karir{" "}
+                      </span>
+                      <ul className="normalUL">
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>IT Consultan</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Web Developer</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>
+                            Mobile Aplication Developer
+                          </p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Game Developer</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>System Analyst</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Data Scientist</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>
+                            Cyber Security Analyst
+                          </p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>
+                            Database Administrator
+                          </p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>Software Tester</p>
+                        </li>
+                        <li>
+                          <p style={{ marginBottom: "0px" }}>
+                            Network Engineer
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -64,7 +64,7 @@
   --it-grey-1: #F2F2F2;
   --it-grey-2: #F3F5F5;
   --it-text-body: #333931;
-  --it-theme-1: #0AB99D;
+  --it-theme-1: #660099;
   --it-theme-2: #116E63;
   --it-theme-3: #2356F6;
   --it-theme-4: #22A3D1;
@@ -5506,7 +5506,7 @@ input[type=color] {
   border-radius: 50%;
   text-align: center;
   display: inline-block;
-  color: #0AB99D;
+  color: #660099;
   font-size: 35px;
   font-weight: 600;
   text-transform: capitalize;
@@ -12121,3 +12121,17 @@ input[type=radio] {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.responsiveFlex {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 823px) {
+  .responsiveFlex {
+    flex-direction:column;
+  }
+}
